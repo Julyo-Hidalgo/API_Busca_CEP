@@ -1,7 +1,9 @@
 <?php
 
-namespace App\EnderecoController;
+namespace App\Model;
 
-abstract class EnderecoController{
+use ApiCEP\Model\Model;
+
+class EnderecoModel extends Model{
 
 }

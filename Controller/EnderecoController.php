@@ -1,7 +1,7 @@
 <?php
 
-namespace ApiCEP\Controller\EnderecoController;
+namespace ApiCEP\Controller;
 
-abstract class EnderecoController{
+class EnderecoController extends Controller{
     
 }
