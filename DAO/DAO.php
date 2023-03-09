@@ -1,6 +1,6 @@
 <?php
 
-namespace ApiCEP\DAO\DAO;
+namespace ApiCEP\DAO;
 
 use \PDO;
 
@@ -11,7 +11,7 @@ abstract class DAO extends PDO{
     {
         $dsn = 'mysql:host=' . $_ENV['db']['host'] . ';dbname=' . $_ENV['db']['database'];
 
-        
+        $conexao = new PDO($dsn, $_ENV['db']['user'] = 'root', $_ENV['db']['pass'] = 'etecjau');
     }
 
 } 
